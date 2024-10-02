@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "howard-sorting-hat-client-side-solution",
+    "id": "9759133c-afdd-4295-83e7-ecc697b1022d",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.19.0"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "howard-sorting-hat description"
+      },
+      "longDescription": {
+        "default": "howard-sorting-hat description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "howard-sorting-hat Feature",
+        "description": "The feature that activates elements of the howard-sorting-hat solution.",
+        "id": "c83c1e92-d6d7-4d09-950d-b29c82689a78",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/howard-sorting-hat.sppkg"
+  }
+}

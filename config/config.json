@@ -1,0 +1,19 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "sorting-hat-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/sortingHat/SortingHatWebPart.js",
+          "manifest": "./src/webparts/sortingHat/SortingHatWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "SortingHatWebPartStrings": "lib/webparts/sortingHat/loc/{locale}.js",
+    "ControlStrings": "node_modules/@pnp/spfx-controls-react/lib/loc/{locale}.js"
+  }
+}
